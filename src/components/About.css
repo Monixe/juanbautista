@@ -1,0 +1,33 @@
+.about-img {
+  width: 50%;       /* ancho reducido */
+  max-width: 300px; /* tamaño máximo */
+  height: auto;     /* mantiene proporción */
+  display: block;
+  margin: 0 auto 1rem auto; /* centra la imagen y separa del párrafo */
+margin-top:30px;
+}
+.page p {
+  max-width: 600px;   /* limita el ancho para que la justificación se vea bien */
+  margin: 37px;
+  text-align: justify; /* justifica el texto */
+  line-height: 0.6;   /* espacio entre líneas para mejorar lectura */
+  font-size: 2rem;
+  font-family: "Passions Conflict";
+  font-weight: 400;
+  font-style: normal;
+  color: #553d2e;;
+}
+/* Opcional: hacer responsive */
+@media (max-width: 768px) {
+  .about-img {
+    width: 70%;
+    max-width: 250px;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-img {
+    width: 90%;
+    max-width: 200px;
+  }
+}
